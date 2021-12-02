@@ -19,4 +19,6 @@ public interface UserMapper {
 
     //注册添加新用户
     public void AddUser(User user);
+
+
 }

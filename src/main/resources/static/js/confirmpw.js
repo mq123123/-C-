@@ -1,5 +1,5 @@
-<script type="text/javascript">
-function insertManager() {
+<script language= javascript  type="text/javascript">
+function insertManager(){
     var password = document.getElementById("password").value;
     var repassword = document.getElementById("repassword").value;
          if(password!=repassword){

@@ -10,9 +10,14 @@ public class UserServiceImpl implements UserService{
 
     @Autowired
     UserMapper userMapper;
-
     @Override
     public User queryUserByName(String name) {
         return userMapper.queryUserByName(name);
+    }
+
+    @Override
+    public void addUser(User user) {
+        userMapper.AddUser(user);
+        return;
     }
 }
